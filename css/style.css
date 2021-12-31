@@ -1,7 +1,49 @@
+body {
+  margin: 0;
+  font-size: 16px;
+}
+h1,
+p {
+  text-align: center;
+}
 #survey-form {
   padding: 2.2rem;
+  margin: 0 auto;
+  width: 60%;
+  max-width: 600px;
+  background-color: rgb(70, 70, 121);
+  color: white;
 }
 label,
 input {
   display: block;
+}
+input:focus {
+  background-color: rgb(250, 67, 67);
+  color: black;
+}
+label {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+textarea {
+  display: block;
+  margin-top: 10px;
+}
+button {
+  cursor: pointer;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline;
 }
