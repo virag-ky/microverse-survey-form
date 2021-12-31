@@ -1,0 +1,7 @@
+#survey-form {
+  padding: 2.2rem;
+}
+label,
+input {
+  display: block;
+}

@@ -1,33 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="new">
     <h1 id="title">Survey Form</h1>
     <p id="description">
       Please fill out this form with the proper information.
     </p>
     <form id="survey-form">
-      <label
-        >Enter Your Name:
-        <input type="text" id="name" required />
+      <label id="name-label">Enter Your Name:
+        <input type="text" id="name" placeholder="Enter your name here" required />
       </label>
-      <label
-        >Enter Your Email:
-        <input type="email" id="email" required />
+      <label id="email-label">Enter Your Email:
+        <input type="email" id="email" placeholder="Enter email here" required />
       </label>
-      <label
-        >Enter Your Age:
-        <input type="number" id="number" min="14" max="99" />
+      <label id="number-label">Enter Your Age:
+        <input type="number" id="number" placeholder="Enter your Age" min="14" max="99" />
       </label>
+      <label> Select from the options below
+        <select id="dropdown">
+          <option value="1">one</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </label>
+      <label>Indoor activity
+        <input type="radio" name="support" value="one">
+      </label>
+      <label> Outdoor activity
+        <input type="radio" name="support" value="one"> </label>
+      <label> Select one
+        <input type="checkbox" name="support" value="one">
+        <input type="checkbox" name="support" value="two"></label>
+      <label>Any other comments
+        <textarea placeholder="enter comment here">
+
+        </textarea>
+      </label>
+      <button type="submit" id="submit">Enter</button>
     </form>
+  </div>
 
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <script src="js/index.js"></script>
-  </body>
+  <script src="js/index.js"></script>
+</body>
+
 </html>
