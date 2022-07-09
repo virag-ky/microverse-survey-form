@@ -10,6 +10,7 @@
 - CSS
 
 ## Live Demo
+![screencapture-127-0-0-1-5500-index-html-2022-07-09-18_42_03](https://user-images.githubusercontent.com/79658534/178112754-5257e8bc-5893-4c32-a1c4-2a904111125a.png)
 
 ## Getting Started
 
@@ -22,6 +23,9 @@ To get a local copy up and running follow these simple example steps.
 - CLI / terminal
 
 ### Setup
+```
+git clone git@github.com:virag-ky/microverse-survey-form.git
+```
 
 
 ## Authors
