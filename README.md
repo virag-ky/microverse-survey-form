@@ -1,5 +1,50 @@
-# FCC Test Suite Template
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-**Fork** this project (do not open a Pull Request) to start working on any of freeCodeCamp's responsive web design course projects. Select the project from the dropdown menu and run the tests to see which requirements your project is still missing.
+# Microverse - Survey Form
 
-You don't know how to fork a project? [Click hear](https://help.github.com/articles/fork-a-repo/) to learn how to do it.
+> Trial project from Microverse, a simple static survey form.
+
+## Built With
+
+- HTML
+- CSS
+
+## Live Demo
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+- modern browser (e.g. Chrome, Firefox)
+- text editor (e.g. VSCode)
+- CLI / terminal
+
+### Setup
+
+
+## Authors
+
+👤 **Author**
+
+- GitHub: [@virag-ky](https://github.com/virag-ky)
+- Twitter: [@Virag_Ky](https://twitter.com/Virag_Ky)
+- LinkedIn: [virag-kormoczy](https://linkedin.com/in/virag-kormoczy)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+- One of the 3 trial projects from Microverse
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
